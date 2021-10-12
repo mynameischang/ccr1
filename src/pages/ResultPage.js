@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 `;
 
 const Container = styled.div`
-  margin-top: 8.6rem;
+  margin-top: 5.6rem;
   margin-bottom: 3rem;
 `;
 
@@ -43,7 +43,7 @@ const ResultTitle = styled.div`
   text-align: center;
   color: white;
   margin-top: 1.9rem;
-  margin-bottom: 15.4rem;
+  margin-bottom: 5.4rem;
 `;
 
 const ResultImg = styled.img`
@@ -64,8 +64,6 @@ const ResultSquare = styled.div`
   position: relative;
   display: flex;
   margin: 2.2rem;
-
-  
   height: ${(props) => (props.isNormal < 150 ? "50rem" : "22.9rem")};
   background: url(${backpaper});
   background-position: center;
@@ -224,7 +222,7 @@ function ResultPage({ match }) {
 
   if (finalType <= 150 && finalType >= 0) {
     return (
-      <Wrapper backgroundColor={results[finalType].color}>
+      <Wrapper>
         <Container>
           <ResultSub>{Parser(results[finalType].title)}</ResultSub>
           <ResultTitle>{results[finalType].name}</ResultTitle>
