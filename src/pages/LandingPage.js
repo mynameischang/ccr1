@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 `;
 const Container = styled.div`
   margin-top: 8rem;
-  margin-bottom: 3rem;
+  margin-bottom: 40rem;
   background-color: white;
   background-position: center;
   border-radius: 0.5rem;
