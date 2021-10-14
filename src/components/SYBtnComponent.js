@@ -33,13 +33,13 @@ const Button = styled.div`
 
   background-color: ${(props) =>
     props.type === "result-activated"
-      ? ""
+      ? "black"
       : props.type === "others-activated"
       ? "#00462A"
       : "white"};
   color: ${(props) =>
     props.type === "result-activated"
-      ? "black"
+      ? "white"
       : props.type === "others-activated"
       ? "white"
       : "black"};
