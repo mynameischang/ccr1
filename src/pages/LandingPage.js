@@ -10,6 +10,7 @@ import back from "../assets/common/bakc_gif.gif"
 const Wrapper = styled.div`
   display: ${(props) => (props.isShow === true ? "flex" : "none")};
   width: 100%;
+  height: auto;
   background-color: black;
   background: url(${back});
   background-position: center;

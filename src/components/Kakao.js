@@ -10,7 +10,6 @@ const ShareBtn = styled.button`
   outline: none;
   background: none;
   border: none;
-
   margin-right: 1.6rem;
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
@@ -45,16 +44,16 @@ function KaKao({ _title, _sub, _imageUrl, _finalType }) {
         {
           title: "결과 보기",
           link: {
-            webUrl: "https://find-my-roomie.vercel.app/result/" + _finalType,
+            webUrl: "http://localhost:3000/public/result/" + _finalType,
             mobileWebUrl:
-              "https://find-my-roomie.vercel.app/result/" + _finalType,
+              "http://localhost:3000/public/result/" + _finalType,
           },
         },
         {
           title: "테스트하기",
           link: {
-            webUrl: "https://find-my-roomie.vercel.app/",
-            mobileWebUrl: "https://find-my-roomie.vercel.app/",
+            webUrl: "http://localhost:3000/ccr/",
+            mobileWebUrl: "http://localhost:3000/ccr/",
           },
         },
       ],

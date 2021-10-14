@@ -15,6 +15,7 @@ import backpaper from "../assets/common/backpaper2.png"
 const Wrapper = styled.div`
   display: flex;
   width: 100%;
+  height: auto;
   background: url(${back});
   background-position: center;
   background-size: cover;
