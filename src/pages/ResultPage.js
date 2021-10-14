@@ -175,8 +175,9 @@ const MatchSqaure = styled.div`
 
 const ShareSquare = styled.div`
   width: 100%;
-  height: 20.8rem;
-  background: url(${backpaper});
+  height: 17rem;
+  // background: url(${backpaper});
+  background-color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
