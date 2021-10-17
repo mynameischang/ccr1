@@ -11,6 +11,7 @@ import KakaoShareBtn from "../components/Kakao";
 import LinkCopyBtn from "../assets/btn/btn_link.svg";
 import back from "../assets/common/bakc_gif.gif"
 import backpaper from "../assets/common/backpaper2.png"
+import paper from "../assets//common//paper.jpg"
 
 const Wrapper = styled.div`
   display: flex;
@@ -176,8 +177,8 @@ const MatchSqaure = styled.div`
 const ShareSquare = styled.div`
   width: 100%;
   height: 17rem;
-  // background: url(${backpaper});
-  background-color: white;
+  background: url(${paper});
+  background-color: puple;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,10 +191,13 @@ const ShareSquare = styled.div`
 
 
 const Button = styled.button`
-  border: none;
-  outline: none;
-  background-color: white;
   cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  margin-right: 1.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 `;
 
 const DeveloperPageLink = styled.div`
